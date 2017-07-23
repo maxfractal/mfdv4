@@ -1,0 +1,141 @@
+/**
+ * Created by Xris on 9/27/2015.
+ */
+/* line 5, ../../../scss/podscape-main.scss */
+body {
+  margin-top: 3.57em;
+  font-size: 16px;
+}
+
+/* line 10, ../../../scss/podscape-main.scss */
+h1, h2, h3, h4, h5, h6 {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-weight: bold;
+}
+
+/* line 16, ../../../scss/podscape-main.scss */
+h1 {
+  font-size: 3em;
+}
+
+/* line 20, ../../../scss/podscape-main.scss */
+h1, h2 {
+  margin: 0 0 40px;
+}
+
+/* line 24, ../../../scss/podscape-main.scss */
+h3 {
+  margin: 20px 0;
+}
+
+/* line 28, ../../../scss/podscape-main.scss */
+h4 {
+  font-size: 1.28em;
+  /* 18px */
+}
+
+/* line 32, ../../../scss/podscape-main.scss */
+.btn {
+  font-weight: bold;
+}
+
+/* line 36, ../../../scss/podscape-main.scss */
+.btn-danger {
+  background-color: #dd5638;
+  border-collapse: #d95131;
+}
+
+/* === Hero === */
+/* line 43, ../../../scss/podscape-main.scss */
+.header_logo {
+  font-family: 'Unica One', Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  font-size: 1.78em;
+  color: #c9d787;
+}
+
+/* line 50, ../../../scss/podscape-main.scss */
+#hero {
+  min-height: 500px;
+  padding: 40px 0;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* line 58, ../../../scss/podscape-main.scss */
+#hero .hero-text {
+  margin-top: 30px;
+}
+
+/* line 62, ../../../scss/podscape-main.scss */
+#hero article {
+  width: 100%;
+  text-align: center;
+}
+
+/* line 67, ../../../scss/podscape-main.scss */
+#comment-timeline {
+  margin: 30px 0 60px;
+  text-align: center;
+  color: white;
+}
+
+/* line 73, ../../../scss/podscape-main.scss */
+#comment-timeline .comment {
+  display: inline-block;
+  margin: 0 2% 0 0;
+  width: 30%;
+  background: #3e4249;
+  padding: 10px 20px 30px;
+  position: relative;
+  vertical-align: top;
+  border-radius: 10px;
+}
+
+/* line 85, ../../../scss/podscape-main.scss */
+#comment-timeline .comment.active {
+  background: #dd5638;
+}
+
+/* line 89, ../../../scss/podscape-main.scss */
+#comment-timeline .comment span {
+  background: #101010;
+  display: block;
+  height: 70px;
+  width: 70px;
+  text-align: center;
+  line-height: 70px;
+  font-weight: bold;
+  font-size: 1.5em;
+  /* 24/16 */
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  position: absolute;
+  bottom: -35px;
+  left: 50%;
+  margin-left: -35px;
+}
+
+/* line 106, ../../../scss/podscape-main.scss */
+#comment-timeline h4 {
+  margin: 0 0 10px;
+}
+
+/* line 110, ../../../scss/podscape-main.scss */
+#comment-timeline h4 small {
+  color: white;
+  font-weight: bold;
+  display: block;
+}
+
+/* line 116, ../../../scss/podscape-main.scss */
+footer {
+  padding: 2em 0;
+  margin: 3em 0;
+  border-top: 1px solid #ddd;
+  color: #A1C0D9;
+  text-align: center;
+}
+
+/*# sourceMappingURL=podscape-main.css.map */
