@@ -1,8 +1,18 @@
 /**
+<<<<<<< HEAD
 * Created by Xris on 9/27/2015.
 */
 body {
   margin-top: 3em;
+=======
+ * Created by Xris on 9/27/2015.
+ */
+
+include "typography";
+
+body {
+  margin-top: 3.57em;
+>>>>>>> 645e6c8e36ed0e1f9d56c2dfec693a0a3f5d049f
   font-size: 16px; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -37,9 +47,13 @@ h4 {
   color: #c9d787; }
 
 #hero {
+<<<<<<< HEAD
   background: url("../img/bg1.png") 50% 0 repeat fixed;
   min-height: 500px;
   margin-top: 0;
+=======
+  min-height: 500px;
+>>>>>>> 645e6c8e36ed0e1f9d56c2dfec693a0a3f5d049f
   padding: 40px 0;
   color: black;
   -webkit-font-smoothing: antialiased;
@@ -101,6 +115,7 @@ footer {
   border-top: 1px solid #ddd;
   color: #A1C0D9;
   text-align: center; }
+<<<<<<< HEAD
 
 .cell1 {
   height: 500px;
@@ -137,3 +152,5 @@ footer {
   font-size: 5em; }
 
 /*# sourceMappingURL=podscape-main.css.map */
+=======
+>>>>>>> 645e6c8e36ed0e1f9d56c2dfec693a0a3f5d049f

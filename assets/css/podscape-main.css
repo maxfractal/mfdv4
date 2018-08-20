@@ -1,43 +1,57 @@
 /**
- * Created by Xris on 9/27/2015.
- */
+* Created by Xris on 9/27/2015.
+*/
+@import url("https://fonts.googleapis.com/css?family=Nunito|Raleway");
 body {
+  font-family: "Raleway", sans-serif;
   margin-top: 3em;
-  font-size: 16px; }
+  font-size: 16px;
+}
 
 h1, h2, h3, h4, h5, h6 {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 h1 {
-  font-size: 3em; }
+  font-size: 3em;
+}
 
 h1, h2 {
-  margin: 0 0 40px; }
+  margin: 0 0 40px;
+}
 
 h3 {
-  margin: 20px 0; }
+  margin: 20px 0;
+}
 
 h4 {
   font-size: 1.28em;
-  /* 18px */ }
+  /* 18px */
+}
+
+.hn {
+  font-family: "Raleway";
+  font-size: 2em;
+  color: palegreen;
+}
 
 .btn {
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 .btn-danger {
   background-color: #dd5638;
-  border-collapse: #d95131; }
+  border-collapse: #d95131;
+}
 
 /* === Hero === */
 .header_logo {
-  font-family: 'Unica One', Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  font-family: Nunito, Helvetica;
+  font-weight: bold;
   font-size: 1.78em;
-  color: #c9d787; }
-
-.img {
-	max-width: 100%;
+  color: #c9d787;
 }
 
 #hero {
@@ -47,19 +61,23 @@ h4 {
   padding: 40px 0;
   color: black;
   -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility; }
+  text-rendering: optimizeLegibility;
+}
 
 #hero .hero-text {
-  margin-top: 30px; }
+  margin-top: 30px;
+}
 
 #hero article {
   width: 100%;
-  text-align: center; }
+  text-align: center;
+}
 
 #comment-timeline {
   margin: 30px 0 60px;
   text-align: center;
-  color: white; }
+  color: white;
+}
 
 #comment-timeline .comment {
   display: inline-block;
@@ -69,10 +87,12 @@ h4 {
   padding: 10px 20px 30px;
   position: relative;
   vertical-align: top;
-  border-radius: 10px; }
+  border-radius: 10px;
+}
 
 #comment-timeline .comment.active {
-  background: #dd5638; }
+  background: #dd5638;
+}
 
 #comment-timeline .comment span {
   background: #101010;
@@ -89,23 +109,193 @@ h4 {
   position: absolute;
   bottom: -35px;
   left: 50%;
-  margin-left: -35px; }
+  margin-left: -35px;
+}
 
 #comment-timeline h4 {
-  margin: 0 0 10px; }
+  margin: 0 0 10px;
+}
 
 #comment-timeline h4 small {
   color: white;
   font-weight: bold;
-  display: block; }
+  display: block;
+}
 
 footer {
   padding: 2em 0;
   margin: 3em 0;
   border-top: 1px solid #ddd;
   color: #A1C0D9;
-  text-align: center; }
+  text-align: center;
+}
 
-/*# sourceMappingURL=podscape-main.css.map */
+.cell1 {
+  height: 500px;
+  background-color: lightblue;
+}
+
+.cell2 {
+  background-blend-mode: #002fa3;
+}
+
+.cell3 {
+  background-color: #64EC4B;
+}
+
+.comicX {
+  border: solid 0.5 black;
+  background-color: #fff;
+  height: 360px;
+  width: 940px;
+  display: block;
+}
+
+.section-title {
+  text-align: center;
+  margin-top: 1em;
+  background-color: #ecf0f1;
+  padding: 0.5em 0;
+  border-radius: 0.3em;
+}
+
+.service {
+  border-radius: 0.3em;
+  background-color: #34495e;
+  text-align: center;
+  padding: 3em 2em 1em 2em;
+  color: white;
+}
+
+.service .glyphicon {
+  font-size: 5em;
+}
+
+/**
+ * Created by Xris on 9/27/2015.
+ */
+/* typography */
+.lead {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  margin-top: 3.57em;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h1, h2 {
+  margin: 0 0 40px;
+}
+
+h3 {
+  margin: 20px 0;
+}
+
+h4 {
+  font-size: 1.28em;
+  /* 18px */
+}
+
+.btn {
+  font-weight: bold;
+}
+
+.btn-danger {
+  background-color: #dd5638;
+  border-collapse: #d95131;
+}
+
+/* === Hero === */
+.header_logo {
+  /* font-family: 'Unica One', Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; */
+  font-family: "Nunito", sans-serif;
+  font-size: 1.78em;
+  color: #c9d787;
+}
+
+#hero {
+  min-height: 500px;
+  padding: 40px 0;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+#hero .hero-text {
+  margin-top: 30px;
+}
+
+#hero article {
+  width: 100%;
+  text-align: center;
+}
+
+#comment-timeline {
+  margin: 30px 0 60px;
+  text-align: center;
+  color: white;
+}
+
+#comment-timeline .comment {
+  display: inline-block;
+  margin: 0 2% 0 0;
+  width: 30%;
+  background: #3e4249;
+  padding: 10px 20px 30px;
+  position: relative;
+  vertical-align: top;
+  border-radius: 10px;
+}
+
+#comment-timeline .comment.active {
+  background: #dd5638;
+}
+
+#comment-timeline .comment span {
+  background: #101010;
+  display: block;
+  height: 70px;
+  width: 70px;
+  text-align: center;
+  line-height: 70px;
+  font-weight: bold;
+  font-size: 1.5em;
+  /* 24/16 */
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  position: absolute;
+  bottom: -35px;
+  left: 50%;
+  margin-left: -35px;
+}
+
+#comment-timeline h4 {
+  margin: 0 0 10px;
+}
+
+#comment-timeline h4 small {
+  color: white;
+  font-weight: bold;
+  display: block;
+}
+
+footer {
+  padding: 2em 0;
+  margin: 3em 0;
+  border-top: 1px solid #ddd;
+  color: #A1C0D9;
+  text-align: center;
+}
 
 /*# sourceMappingURL=podscape-main.css.map */

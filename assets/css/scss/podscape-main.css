@@ -1,4 +1,5 @@
 /**
+<<<<<<< HEAD
 * Created by Xris on 9/27/2015.
 */
 /* line 4, ../../../scss/podscape-main.scss */
@@ -8,82 +9,143 @@ body {
 }
 
 /* line 8, ../../../scss/podscape-main.scss */
+=======
+ * Created by Xris on 9/27/2015.
+ */
+/* line 5, ../../../scss/podscape-main.scss */
+body {
+  margin-top: 3.57em;
+  font-size: 16px;
+}
+
+/* line 10, ../../../scss/podscape-main.scss */
+>>>>>>> 645e6c8e36ed0e1f9d56c2dfec693a0a3f5d049f
 h1, h2, h3, h4, h5, h6 {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   font-weight: bold;
 }
 
+<<<<<<< HEAD
 /* line 13, ../../../scss/podscape-main.scss */
+=======
+/* line 16, ../../../scss/podscape-main.scss */
+>>>>>>> 645e6c8e36ed0e1f9d56c2dfec693a0a3f5d049f
 h1 {
   font-size: 3em;
 }
 
+<<<<<<< HEAD
 /* line 16, ../../../scss/podscape-main.scss */
+=======
+/* line 20, ../../../scss/podscape-main.scss */
+>>>>>>> 645e6c8e36ed0e1f9d56c2dfec693a0a3f5d049f
 h1, h2 {
   margin: 0 0 40px;
 }
 
+<<<<<<< HEAD
 /* line 19, ../../../scss/podscape-main.scss */
+=======
+/* line 24, ../../../scss/podscape-main.scss */
+>>>>>>> 645e6c8e36ed0e1f9d56c2dfec693a0a3f5d049f
 h3 {
   margin: 20px 0;
 }
 
+<<<<<<< HEAD
 /* line 22, ../../../scss/podscape-main.scss */
+=======
+/* line 28, ../../../scss/podscape-main.scss */
+>>>>>>> 645e6c8e36ed0e1f9d56c2dfec693a0a3f5d049f
 h4 {
   font-size: 1.28em;
   /* 18px */
 }
 
+<<<<<<< HEAD
 /* line 26, ../../../scss/podscape-main.scss */
+=======
+/* line 32, ../../../scss/podscape-main.scss */
+>>>>>>> 645e6c8e36ed0e1f9d56c2dfec693a0a3f5d049f
 .btn {
   font-weight: bold;
 }
 
+<<<<<<< HEAD
 /* line 29, ../../../scss/podscape-main.scss */
+=======
+/* line 36, ../../../scss/podscape-main.scss */
+>>>>>>> 645e6c8e36ed0e1f9d56c2dfec693a0a3f5d049f
 .btn-danger {
   background-color: #dd5638;
   border-collapse: #d95131;
 }
 
 /* === Hero === */
+<<<<<<< HEAD
 /* line 34, ../../../scss/podscape-main.scss */
+=======
+/* line 43, ../../../scss/podscape-main.scss */
+>>>>>>> 645e6c8e36ed0e1f9d56c2dfec693a0a3f5d049f
 .header_logo {
   font-family: 'Unica One', Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
   font-size: 1.78em;
   color: #c9d787;
 }
 
+<<<<<<< HEAD
 /* line 39, ../../../scss/podscape-main.scss */
 #hero {
   background: url("../img/bg1.png") 50% 0 repeat fixed;
   min-height: 500px;
   margin-top: 0;
+=======
+/* line 50, ../../../scss/podscape-main.scss */
+#hero {
+  min-height: 500px;
+>>>>>>> 645e6c8e36ed0e1f9d56c2dfec693a0a3f5d049f
   padding: 40px 0;
   color: black;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
 
+<<<<<<< HEAD
 /* line 48, ../../../scss/podscape-main.scss */
+=======
+/* line 58, ../../../scss/podscape-main.scss */
+>>>>>>> 645e6c8e36ed0e1f9d56c2dfec693a0a3f5d049f
 #hero .hero-text {
   margin-top: 30px;
 }
 
+<<<<<<< HEAD
 /* line 51, ../../../scss/podscape-main.scss */
+=======
+/* line 62, ../../../scss/podscape-main.scss */
+>>>>>>> 645e6c8e36ed0e1f9d56c2dfec693a0a3f5d049f
 #hero article {
   width: 100%;
   text-align: center;
 }
 
+<<<<<<< HEAD
 /* line 55, ../../../scss/podscape-main.scss */
+=======
+/* line 67, ../../../scss/podscape-main.scss */
+>>>>>>> 645e6c8e36ed0e1f9d56c2dfec693a0a3f5d049f
 #comment-timeline {
   margin: 30px 0 60px;
   text-align: center;
   color: white;
 }
 
+<<<<<<< HEAD
 /* line 60, ../../../scss/podscape-main.scss */
+=======
+/* line 73, ../../../scss/podscape-main.scss */
+>>>>>>> 645e6c8e36ed0e1f9d56c2dfec693a0a3f5d049f
 #comment-timeline .comment {
   display: inline-block;
   margin: 0 2% 0 0;
@@ -95,12 +157,20 @@ h4 {
   border-radius: 10px;
 }
 
+<<<<<<< HEAD
 /* line 70, ../../../scss/podscape-main.scss */
+=======
+/* line 85, ../../../scss/podscape-main.scss */
+>>>>>>> 645e6c8e36ed0e1f9d56c2dfec693a0a3f5d049f
 #comment-timeline .comment.active {
   background: #dd5638;
 }
 
+<<<<<<< HEAD
 /* line 73, ../../../scss/podscape-main.scss */
+=======
+/* line 89, ../../../scss/podscape-main.scss */
+>>>>>>> 645e6c8e36ed0e1f9d56c2dfec693a0a3f5d049f
 #comment-timeline .comment span {
   background: #101010;
   display: block;
@@ -119,19 +189,31 @@ h4 {
   margin-left: -35px;
 }
 
+<<<<<<< HEAD
 /* line 90, ../../../scss/podscape-main.scss */
+=======
+/* line 106, ../../../scss/podscape-main.scss */
+>>>>>>> 645e6c8e36ed0e1f9d56c2dfec693a0a3f5d049f
 #comment-timeline h4 {
   margin: 0 0 10px;
 }
 
+<<<<<<< HEAD
 /* line 93, ../../../scss/podscape-main.scss */
+=======
+/* line 110, ../../../scss/podscape-main.scss */
+>>>>>>> 645e6c8e36ed0e1f9d56c2dfec693a0a3f5d049f
 #comment-timeline h4 small {
   color: white;
   font-weight: bold;
   display: block;
 }
 
+<<<<<<< HEAD
 /* line 98, ../../../scss/podscape-main.scss */
+=======
+/* line 116, ../../../scss/podscape-main.scss */
+>>>>>>> 645e6c8e36ed0e1f9d56c2dfec693a0a3f5d049f
 footer {
   padding: 2em 0;
   margin: 3em 0;
@@ -141,5 +223,8 @@ footer {
 }
 
 /*# sourceMappingURL=podscape-main.css.map */
+<<<<<<< HEAD
 
 /*# sourceMappingURL=podscape-main.css.map */
+=======
+>>>>>>> 645e6c8e36ed0e1f9d56c2dfec693a0a3f5d049f

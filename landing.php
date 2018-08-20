@@ -6,14 +6,19 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>21cGeek Xris Landing Page</title>
+<title>MFDv4</title>
 
 </head>
 
 <body>
+<?php get_header(); ?>
+
+<h1 class="hn">Podcape</h1>
+
 	<section>
 	<article>
 		<a href="podscape/index.php"><h1><?php echo(bloginfo('name')); ?></h1></a>
+		<h2><?php the_title(); ?></h2>
 		<h4><?php echo(bloginfo('description')); ?></h4>
 	</article>
 </section>

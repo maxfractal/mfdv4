@@ -1,6 +1,7 @@
 /**
  * Created by Xris on 9/27/2015.
  */
+<<<<<<< HEAD
 
 $(function() {
 	//cache the window object
@@ -24,3 +25,5 @@ $(function() {
 		})
 	});
 });
+=======
+>>>>>>> 645e6c8e36ed0e1f9d56c2dfec693a0a3f5d049f
